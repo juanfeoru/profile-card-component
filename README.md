@@ -29,8 +29,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add your solution URL here](https://www.frontendmentor.io/solutions/your-solution-url)
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add your solution URL here](https://www.frontendmentor.io/solutions/responsive-profile-card-component-using-html-and-css-it3DT9XwVq)
+- Live Site URL: [Add your live site URL here](https://juanfeoru.github.io/profile-card-component/)
 
 ## My process
 
