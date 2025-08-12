@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="profile">
+      <article class="card">
+        <header class="card__header">
+          <img src="./images/bg-pattern-card.svg" alt="" class="card__bg" />
+        </header>
+
+        <img
+          src="./images/image-victor.jpg"
+          alt="Profile picture of Victor Crest"
+          class="card__avatar"
+        />
+
+        <h1 class="card__name">
+          Victor Crest <span class="card__age">26</span>
+        </h1>
+        <p class="card__location">London</p>
+
+        <section class="card_stats">
+          <div>
+            <p class="card_stat-number">80k</p>
+            <p class="card__stat-label">Followers</p>
+          </div>
+          <div>
+            <p class="card_stat-number">803k</p>
+            <p class="card__stat-label">Likes</p>
+          </div>
+          <div>
+            <p class="card_stat-number">1.4K</p>
+            <p class="card__stat-label">Photos</p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
