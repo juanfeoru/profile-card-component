@@ -18,40 +18,48 @@
       rel="stylesheet"
     />
 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <title>Frontend Mentor | Profile card component</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <main class="profile">
-      <article class="card">
-        <header class="card__header">
-          <img src="./images/bg-pattern-card.svg" alt="" class="card__bg" />
+
+  <body
+    class="bg-[var(--blue-600)] font-['Kumbh_Sans'] flex items-center justify-center min-h-screen m-4 overflow-y-hidden"
+  >
+    <main>
+      <article
+        class="bg-[var(--white)] rounded-2xl overflow-hidden text-center shadow-xl"
+      >
+        <header>
+          <img src="./images/bg-pattern-card.svg" alt=""/>
         </header>
 
         <img
           src="./images/image-victor.jpg"
           alt="Profile picture of Victor Crest"
-          class="card__avatar"
+          class="rounded-full object-cover mx-auto mt-[-3rem] relative border-[0.4rem] border-white"
         />
 
-        <h1 class="card__name">
-          Victor Crest <span class="card__age">26</span>
+        <h1 class="text-[var(--navy-950)] text-base font-bold">
+          Victor Crest <span class="text-[var(--gray-500)] font-normal ml-1">26</span>
         </h1>
-        <p class="card__location">London</p>
 
-        <section class="card_stats">
+        <p class="text-sm text-[var(--gray-500)] mt-2">London</p>
+
+        <section class="flex justify-center border-t border-[hsl(0,0%,90%)] mt-4 gap-8 p-4">
           <div>
-            <p class="card_stat-number">80k</p>
-            <p class="card__stat-label">Followers</p>
+            <p class="font-bold text-[var(--navy-950)]">80K</p>
+            <p class="text-xs text-[var(--gray-500)] tracking-[2px]">Followers</p>
           </div>
           <div>
-            <p class="card_stat-number">803k</p>
-            <p class="card__stat-label">Likes</p>
+            <p class="font-bold text-[var(--navy-950)]">803K</p>
+            <p class="text-xs text-[var(--gray-500)] tracking-[2px]">Likes</p>
           </div>
           <div>
-            <p class="card_stat-number">1.4K</p>
-            <p class="card__stat-label">Photos</p>
+            <p class="font-bold text-[var(--navy-950)]">1.4K</p>
+            <p class="text-xs text-[var(--gray-500)] tracking-[2px]">Photos</p>
           </div>
         </section>
       </article>
